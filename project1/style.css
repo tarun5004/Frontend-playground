@@ -53,9 +53,57 @@ html, body{
     border: 1.5px solid black;
     font-size: 16px;
     font-weight: 600;
-    background-color: white;
 }
 #btn2{
+    border: none;
     color: white;
     background-color: orangered;
+}
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    width: 100%;
+
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    font-weight: 200;
+
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+    font-weight: 200;
 }
