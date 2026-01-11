@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+#intro{
+    height: 35%;
+    width: 100%;
+    padding: 10 px;
+    /*background-color: rgb(235, 238, 239);*/
+}
+#intro h1{
+    font-size: 100px;
+    line-height:80px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 25px 30px;
+}
+#place{
+    margin: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3,#place h4{
+    font: 50px;
+    font-weight: 600;
+    color: black;
+}
+#hero-image{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp');
+    background-size: cover;
+}
+
+#about{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    width: 55%;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 88px;
+    
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
+    font-size: 20px;
+    padding: 0px 40px;
+    border-left: 2px solid black;
+
+}
+#about-part2 h3{
+
+}
