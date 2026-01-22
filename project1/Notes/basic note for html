@@ -1,0 +1,25 @@
+1 - target="_blank" - ye link ko new tab mai open karta hai 
+
+2- rel="noopner" - noopener = new tab ko tumhare page se “connection tod do”. for example 
+socho tumara page se ek link new tab mai khulta hai too woh new tab tumare og page ko control kar skta hai (javascript se).
+ye security risk Heading. noopner lgane se new tab tumhare og page ko control nhi kr skta.
+\
+3- rel="noreferrer" - noreferrer = referer info ko remove kr do. jab tum kisi link pe click
+krte ho too tumhara browser ek "referer" header bhejta hai jisme tumhare og page ka URL hota hai. ye header 
+destination site ko btata hai ki tum kaha se aa rahe ho. noreferrer lgane se ye info remove ho jati hai.
+best practice
+<a href="https://google.com" target="_blank" rel="noopener noreferrer">
+    Google
+</a>
+
+target="_blank"
+→ “Nayi room mein jao.”
+
+noopener
+→ “Par nayi room ko apne purane room ki chabi mat do.”
+
+noreferrer
+→ “Aur nayi room ko mat batao ki tum kis room se aaye ho.”
+
+
+
