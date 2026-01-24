@@ -1,0 +1,84 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/playfair.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: darkolivegreen; */
+}
+#centre{
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-color: limegreen; */
+}
+#text{
+    text-align: center;
+    padding-top: 100px;
+
+}
+#text h4{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    color: dimgrey;
+    font-family: playfair;
+    margin-bottom: 20px;
+    word-spacing: -1px;
+}
+#text h1{
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.0;
+    margin-bottom: 20px;
+
+}
+#text p{
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: grey;
+    line-height: 1.5;
+}
+#text button{
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    background-color: transparent;
+}
+#img{
+    position: absolute;
+    height: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#gradient{
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(rgb(235, 178, 74), rgb(223, 10, 134),rgb(213, 120, 179) );
+    filter: blur(100px);
+    opacity: 0.8;
+    position: absolute;
+    rotate: -10deg;
+}
