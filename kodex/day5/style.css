@@ -1,0 +1,136 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter-Regular.47e70f6ff0.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    /* background-color: #001d21; */
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height:100%;
+    width: 100%;
+    /* background-color: #001d21; */
+}
+nav{
+    height:70px;
+    width: 100%;
+    background-color: #001d21;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+nav img{
+    height: 40px;
+}
+nav h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+nav button{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #001d21;
+    padding-top: 7%;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;  
+    background-color:#f9f9f7;
+}
+
+.page1 .text{
+    color: whitesmoke;
+    text-align: center;
+
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 32%;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0 20px;
+    justify-content: center;
+    
+}
+.images img{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.about{
+    width: 100%;
+    /* background-color: chartreuse; */
+    padding: 80px;
+}
+.about-top{
+    display: flex;
+    margin-bottom: 60px;
+}
+.about-title{
+    width: 20%;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(109, 106, 106);
+
+}
+.about-text{
+    width: 80%;
+    line-height: 1.2;
+}
+.about-text p{
+    font-size: 28px;
+    font-weight: 500;
+    width: 83%;
+}
+.about-bottom{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 20%;
+    border-right: 2px solid black;
+}
