@@ -128,9 +128,28 @@ nav button{
 .about-bottom{
     display: flex;
     margin-top: 30px;
-    gap: 20px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 270px;
+    padding-bottom: 40rem;
+    
+}
+.box{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.box h2{ 
+    font-size: 30px;
+    color: #071f17;
+}
+.box p{
+    font-size: 17px;
+    color: #535351;
     width: 80%;
-    padding-bottom: 20%;
-    border-right: 2px solid black;
+    line-height: 1.5;
+    margin-top: 10px;
 }
