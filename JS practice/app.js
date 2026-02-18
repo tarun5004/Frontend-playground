@@ -124,3 +124,86 @@ function hasA(str){
     return str.includes("a") || str.includes("A");
 }
 
+function countVowels(str) {
+    let count = 0;
+    let vowels = "aeiouWEIOU";
+    for(let char of str){
+        if(vowels.includes(char)){
+            count++;
+        }
+    }
+    return count;
+}
+
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
+
+function stringEmpty(str) {
+    return str.length === 0;
+}
+
+function countSpaces(str) {
+    let count = 0;
+    for (let ch of str) {
+    if (ch === " ") count++;
+}
+return count;
+}
+
+
+function arraySum(arr) {
+    return arr.reduce((sum , num) => sum +num, 0);
+}
+
+function maxNumber(arr) {
+    return Math.max(...arr);
+}
+
+
+function minNumber(arr) {
+    return Math.min(...arr);
+}
+
+function doubleArray(arr){
+    return arr.map(num => num * 2);
+}
+
+function removeDuplicate(arr){
+    return [...new Set(arr)]
+}
+
+function positivesNumbers(arr){
+    return arr.filter(num => num > 0);
+}
+
+function divisibleByThree(arr){
+    return arr.filter(num => num % 3 ===0);
+}
+
+function printIndexes(arr){
+    arr.forEach((item, index) => {
+        console.log(index);
+    });
+}
+
+function middleElement(arr){
+    let mid = Math.floor(arr.length / 2);
+    return arr[mid];
+}
+
+function removeMiddle(arr){
+    let mid = Math.floor(arr.length / 2);
+    arr.splice(mid, 1);
+    return arr;
+}
+
+function OddNum (arr){
+    for(let num of arr){
+        if(num % 2 !== 0){
+        console.log(num);
+        }
+    }
+}
