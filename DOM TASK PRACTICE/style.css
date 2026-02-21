@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background: #b3a2a2;
+    color: #000;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #082e55;
+    margin-top: 10px 0;
+}
+
+#togglebox {
+    width: 100px;
+    height: 100px;
+    background: #2ec52c;
+    margin-top: 10px 0;
+}
