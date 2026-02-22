@@ -31,7 +31,61 @@ showHideBtn.addEventListener("click", () => {
     if (togglebox.style.display ==="none"){
         togglebox.style.display = "block";
     } else {
-        box.style.display = "none";
+        togglebox.style.display = "none";
     }
 })
+
+
+// Task 4: Rotate Box
+const rotateBox = document.querySelector("#rotateBox");
+const rotateLeftBtn = document.querySelector("#rotateLeft");
+const rotateRightBtn = document.querySelector("#rotateRight");
+
+let angle = 0;
+
+rotateLeftBtn.addEventListener("click", ()=> {
+    angle -= 45;
+    rotateBox.style.transform = `rotate(${angle}deg)`;
+});
+
+rotateRightBtn.addEventListener("click", ()=> {
+    angle += 45;
+    rotateBox.style.transform = `rotate(${angle}deg)`;
+});
+
+// Task 5: Counter
+const countValue = document.querySelector("#countValue");
+const minusBtn = document.querySelector("#minusBtn");
+const plusBtn = document.querySelector("#plusBtn");
+
+let count = 0;
+minusBtn.addEventListener("click", () => {
+    if (count > 0) {
+        count = count - 5;
+        countValue.innerText = count;
+    }
+})
+plusBtn.addEventListener("click", () => {
+    count = count + 5;
+    countValue.innerText = count;
+})
+
+
+// Task 6: Dark and Light Mode
+const modeBtn = document.querySelector("#modeBtn");
+const darkLightDiv = document.querySelector(".darkLight");
+let isDark = false;
+
+modeBtn.addEventListener("click", () => {
+    if (!isDark) {
+        darkLightDiv.style.background = "#fff";
+        darkLightDiv.style.color = "#422828";  
+    } else {
+        darkLightDiv.style.background = "#c73a3a";
+        darkLightDiv.style.color = "#fff";
+    }
+    isDark = !isDark;
+});
+
+
 
